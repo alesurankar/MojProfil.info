@@ -45,3 +45,32 @@
     font-size: 24px;
     cursor: pointer;
 }
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 10% 0;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+}
+
+.home-content h3 span {
+    color: #37a1f2;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 15px 0;
+}
