@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     padding: 30px 10%;
-    background: seagreen;
+    background: transparent;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -35,6 +35,13 @@
     transition: .5s;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.active {
     color: #37a1f2;
+}
+
+.toggle-icon {
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
 }
