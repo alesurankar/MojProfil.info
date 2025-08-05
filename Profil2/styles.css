@@ -8,6 +8,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    background: #f0f3fd;
+    color: #333;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -113,4 +118,12 @@
 .btn:hover {
     background: transparent;
     color: #37a1f2;
+}
+
+.home-img img {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 45%;
+    pointer-events: none;
 }
