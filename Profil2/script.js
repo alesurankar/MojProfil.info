@@ -17,7 +17,10 @@ toggleIcons.forEach(toggle => {
 
         icons.forEach(icon => {
             icon.classList.toggle('bx-sun');
-        })
+        });
+
+        container.classList.toggle('active');
+        darkContainer.classList.toggle('active');
 
     })
 })
