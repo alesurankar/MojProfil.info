@@ -147,3 +147,12 @@
 #dark-container .navbar a.active {
     color: #37a1f2;
 }
+
+#dark-container {
+    clip-path: circle(60% at 0 0);
+    z-index: 10;
+}
+
+.active#container {
+    z-index: 1;
+}
