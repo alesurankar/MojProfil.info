@@ -65,7 +65,28 @@ a {
     background-color: aliceblue;
 }
 
+.content {
+    max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
 .points {
-    
-    padding: 25px 9%;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-top: 10px;
+}
+.points li a {
+  text-decoration: none;
 }
