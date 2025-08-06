@@ -37,3 +37,13 @@ header {
 .navigation a:hover {
     color: #7d2ae8;
 }
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+}
