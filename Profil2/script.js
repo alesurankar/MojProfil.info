@@ -15,6 +15,11 @@ darkContainerImg.src = 'imgDark.png';
 toggleIcons.forEach(toggle => {
     toggle.addEventListener('click', () => {
 
+        toggle.classList.add('disabled');
+        setTimeout(() => {
+            toggle.classList.remove('disabled');
+        }, 1500);
+
         icons.forEach(icon => {
             icon.classList.toggle('bx-sun');
         });

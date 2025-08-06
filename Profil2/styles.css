@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.toggle-icon.disabled {
+    pointer-events: none;
+}
+
 .home {
     height: 100vh;
     display: flex;
@@ -151,6 +155,7 @@
 #container,
 #dark-container {
     clip-path: circle(0% at 0 0);
+    transition-delay: 1.5s;
 }
 
 .active#container,
