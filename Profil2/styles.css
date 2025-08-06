@@ -9,6 +9,7 @@
 }
 
 .container {
+    position: relative;
     background: #f0f3fd;
     color: #333;
 }
@@ -126,4 +127,23 @@
     right: 30px;
     width: 45%;
     pointer-events: none;
+}
+
+#dark-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #15202b;
+    color: #f0f3fd;
+}
+
+#dark-container .logo,
+#dark-container .navbar a {
+    color: #f0f3fd;
+}
+
+#dark-container .navbar a:hover,
+#dark-container .navbar a.active {
+    color: #37a1f2;
 }
