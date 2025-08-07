@@ -16,35 +16,6 @@ body {
 a {
     text-decoration: none;
 }
-
-.navbar {
-    background-color: steelblue;
-    left: 0;
-    top: 0;
-    width: 100%;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-left: 20px;
-    display: flex;
-    z-index: 100;
-}   
-
-.navbar ul {
-    display: flex;
-    padding-top: 20px;
-}
-
-.navbar ul li {
-    margin-left: 35px;
-    font-size: 20px;
-    font-weight: 600;
-    list-style: none;
-}
-
-.navbar ul li a {
-    width: 110px;
-}
-
 .content {
     font-size: 20px;
 }
